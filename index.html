@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="script.js" type="javascript" />
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src="https://kit.fontawesome.com/ae3223795d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div id="container">
+        <table class="table">
+            <thead>
+                <h1>To Do List</h1></thead>
+            <tbody>
+                <tr>
+                    <input type="text" placeholder="Add new task">
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Study Javascript</label>
+                        </div>
+                    </td>
+                    <td class="text-right text-nowrap">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                            <label class="custom-control-label" for="customCheck2">Make a DOM task</label>
+                        </div>
+                    </td>
+                    <td class="text-right text-nowrap">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                            <label class="custom-control-label" for="customCheck3">Clean house</label>
+                        </div>
+                    </td>
+                    <td class="text-right text-nowrap">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck4">
+                            <label class="custom-control-label" for="customCheck4">Clean house</label>
+                        </div>
+                    </td>
+                    <td class="text-right text-nowrap">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-light">All</button>
+                        <button type="button" class="btn btn-light">Active</button>
+                        <button type="button" class="btn btn-light">Completed</button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
