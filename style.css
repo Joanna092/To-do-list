@@ -8,3 +8,7 @@ body {
 .delete {
   margin-right: 5px;
 }
+
+.hidden {
+  display: none;
+}
